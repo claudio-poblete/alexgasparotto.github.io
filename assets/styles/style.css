@@ -7,7 +7,7 @@
 
 .navbar-collapse {
   align-items: center;
-  justify-content: space-between;  
+  justify-content: space-between; 
 }
 
 /* Estilos generales */
@@ -101,7 +101,7 @@ h1 {
 /* Experiencia */
 
 .experiencia {
-  padding: 20px 40px 60px 40px;
+  padding: 40px 40px 60px 40px;
 }
 
 .experiencia .columna {
@@ -121,7 +121,7 @@ h1 {
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #efff0b;
+  color: white;
   background-color: #0a0a23;
   padding: 8px 19px;
   border-radius: 50%;
@@ -143,17 +143,30 @@ h1 {
   margin: 5px;
 }
 
+
+/* ESTUDIOS */
+
+.list1{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.iconlist{
+  background-color: white;
+  border: 1px solid rgb(13, 110, 253);
+}
+
+
 /* Proyectos */
 
 .Estudios{
-  padding: 20px;
+  padding-top: 30px;
 }
 
 .Aproyecto{
   text-decoration: none;
-  color: black;
+  color: black
 }
-
 
 .proyectos-recientes {
   padding: 40px;
@@ -194,9 +207,6 @@ h1 {
 
 .proyecto img {
   opacity: 0.2;
-}
-.proyecto img:hover {
-  opacity: 1;
 }
 
 .proyecto:hover .overlay {

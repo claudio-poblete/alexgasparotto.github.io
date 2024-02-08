@@ -3,8 +3,8 @@
   <head>
     <!-- Metadatos -->
     <meta charset="utf-8">
-    <meta name="author" content="Alejandro Gasparotto by Jane">
-    <meta name="description" content="Portafolio de desarrollo web de Alejandro Gasparotto by Jane.">
+    <meta name="author" content="Alejandro Gasparotto">
+    <meta name="description" content="Portafolio de desarrollo web de Alejandro Gasparotto.">
     <meta name="keywords" content="HTML, CSS, JavaScript, React">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Titulo -->
@@ -35,7 +35,10 @@
           </a>
           <ul class="navbar-nav d-flex justify-content-center align-items-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+              <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Estudios">Estudios</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#proyectos">Proyectos</a>
@@ -58,9 +61,6 @@
         <h1>Hola, soy Alejandro Gasparotto</h1>
         <h2>Profesional con experiencia en la gestión y administración de contratos Eléctricos y Mecánicos</h2>
       </div>
-      <div class="hero-inferior">
-        <img class="hero-inferior-imagen img-fluid" src="./assets/img/hero-inferior.png" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
-      </div>
     </section>
 
     <!-- Sobre mi -->
@@ -71,36 +71,35 @@
       </div>
     </section>
     <!-- SECCION DE ESTUDIOS -->
-    <h2 class="seccion-titulo text-center Estudios">Estudios Técnicos</h2>
+    <h2 id="Estudios" class="seccion-titulo text-center Estudios">Estudios Técnicos</h2>
     <!-- SECCION DE ESTUDIOS -->
     <section class="experiencia seccion-clara">
       <div class="container text-center">
         <div class="row">
           <!-- Supervisor -->
           <div class="columna col-12 col-md-4">
-            <i class="bi bi-arrows-expand"></i>
-            <p class="experiencia-titulo">Electro Mecánica</p>
-            <ul>
-              <li>Tecnico Mecanico en ascensores</li>
-              <li>Tecnico Superior en Electronica</li>
+            <i class="iconlist bi bi-arrows-expand"></i>
+            <p class="experiencia-titulo">Estudios Superiores</p>
+            <ul class="list1">
+              <li>Técnico superior en electrónica</li>
+              <li>Técnico mecánico en ascensores</li>
             </ul>
           </div>
           <!-- Administrador Contratos -->
           <div class="columna col-12 col-md-4">
-            <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Administrador de Contratos</p>
-            <ul>
-              <li>SAP PM</li>
-              <li>EXCEL - intermedio</li>
+            <i class="iconlist bi bi-laptop"></i>
+            <p class="experiencia-titulo">Cursos</p>
+            <ul class="list1">
+              <li>EXCEL - SAP PM - Microsoft Office - Linux Ubuntu</li>
           </ul>
           </div>
           <!-- Experiencia Mecanica -->
           <div class="columna col-12 col-md-4">
-            <i class="bi bi-wrench-adjustable"></i>
-            <p class="experiencia-titulo">Mecánica Industrial</p>
-            <ul>
-              <li>Pago de proveedores</li>
-              <li>Gestión de accesos y permisos</li>
+            <i class="iconlist bi bi-wrench-adjustable"></i>
+            <p class="experiencia-titulo">Habilidades</p>
+            <ul class="list1">
+              <li>Gestión de contratos</li>
+              <li>Control de proyectos</li>
           </ul>
           </div>
         </div>
@@ -117,7 +116,7 @@
     </section>
     <!-- Proyectos -->
     <h2 class="seccion-titulo texto-negro text-center p-5">Portafolio Programador Jr</h2>
-    <h3 class="seccion-descripcion text-center">Estos son algunos de mis ultimos proyectos</h3>
+    <h3 id="proyectos" class="seccion-descripcion text-center">Estos son algunos de mis ultimos proyectos</h3>
     <br>
     <!-- carrusell 1 portafolio -->
     <div id="carouselExampleDark" class="carousel carousel-dark slide">
@@ -161,7 +160,7 @@
     <!-- FIN carrusell 1 portafolio -->
 
     <!-- Galeria de Proyectos -->
-    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <section class="proyectos-recientes seccion-clara d-flex flex-column">
 
       <div class="container text-center proyectos-contenedor">
         <div class="row">
@@ -171,7 +170,7 @@
               <img src="./assets/img/iguana-1.jpg" alt="Proyecto 1">
               <div class="overlay">
                 <div class="iconos-contenedor">
-                  <a class="Aproyecto text-dark" href="https://alexgasparotto.github.io/project_iguanapage/" target="_blank" rel="noopener noreferrer">
+                  <a class="Aproyecto" href="https://alexgasparotto.github.io/project_iguanapage/" target="_blank" rel="noopener noreferrer">
                     <p>Project Iguana</p>
                     <i class="bi bi-window"></i>
                   </a>
@@ -185,7 +184,7 @@
               <img src="./assets/img/cuppon.jpg" alt="Proyecto 1">
               <div class="overlay">
                 <div class="iconos-contenedor">
-                  <a class="Aproyecto text-dark" href="https://alexgasparotto.github.io/project_cuppon/" target="_blank" rel="noopener noreferrer">
+                  <a class="Aproyecto" href="https://alexgasparotto.github.io/project_cuppon/" target="_blank" rel="noopener noreferrer">
                     <p>Project Cuppon</p>
                     <i class="bi bi-cash-stack"></i>
                   </a>
@@ -199,7 +198,7 @@
               <img src="./assets/img/CVvitae.jpg" alt="Proyecto 1">
               <div class="overlay">
                 <div class="iconos-contenedor">
-                  <a class="Aproyecto text-dark" href="https://alexgasparotto.github.io/project_cv/" target="_blank" rel="noopener noreferrer">
+                  <a class="Aproyecto" href="https://alexgasparotto.github.io/project_cv/" target="_blank" rel="noopener noreferrer">
                     <p>Project CV</p>
                     <i class="bi bi-briefcase-fill"></i>
                   </a>
@@ -220,36 +219,35 @@
     <!-- Testimonios -->
     <section id="testimonios" class="testimonios seccion-clara">
       <h2 class="seccion-titulo">Testimonios</h2>
-      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
       <!-- Carrusel -->
       <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container">
               <img class="testimonio-imagen rounded-circle" src="./assets/img/cliente1.svg" alt="Foto generica">
-              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <p class="testimonio-texto">Profesional, muy comprometido con el equipo!! abrazos.</p>
               <div class="testimonio-info">
-                <p class="cliente">Gino</p>
-                <p class="cargo">Gerente</p>
+                <p class="cliente">Ignacio</p>
+                <p class="cargo">Jefe de Mantenimiento Retail</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container">
               <img class="testimonio-imagen rounded-circle" src="./assets/img/cliente2.svg" alt="Foto generica">
-              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <p class="testimonio-texto">Excelente profesional, un gusto trabajar contigo! saludos.</p>
               <div class="testimonio-info">
-                <p class="cliente">Nora</p>
-                <p class="cargo">Gerente</p>
+                <p class="cliente">Oriana</p>
+                <p class="cargo">Senior developer Meli</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container">
               <img class="testimonio-imagen rounded-circle" src="./assets/img/cliente3.svg" alt="Foto generica">
-              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <p class="testimonio-texto">Excelente amigo, profesional y colega, exitos en tus futuros proyectos.</p>
               <div class="testimonio-info">
-                <p class="cliente">Leonardo</p>
+                <p class="cliente">Cesar</p>
                 <p class="cargo">Director</p>
               </div>
             </div>
@@ -278,7 +276,7 @@
               <p class="text2">Contáctame para iniciar tu proyecto</p>
             </div>
             <div class="col-12 col-md-4">
-              <a href="mailto:alejandrogasparotto@mail.com">
+              <a href="mailto:alejandrogasparotto182@mail.com">
                 <button type="button">
                   Contacto
                   <i class="bi bi-envelope-check-fill"></i>
@@ -298,13 +296,13 @@
         <a href="https://github.com/alexgasparotto?tab=repositories" target="_blank" rel="noopener noreferrer">
           <i class="bi bi-github"></i>
         </a>
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/alejandro-gasparotto-228171153/" target="_blank" rel="noopener noreferrer">
           <i class="bi bi-linkedin"></i>
         </a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/gasparottoalej/?hl=es-la" target="_blank" rel="noopener noreferrer">
           <i class="bi bi-instagram"></i>
         </a>
-        <a href="mailto:alejandrogasparotto@mail.com" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:alejandrogasparotto182@mail.com" target="_blank" rel="noopener noreferrer">
           <i class="bi bi-envelope"></i>
         </a>
       </div>
