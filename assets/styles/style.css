@@ -168,6 +168,15 @@ h1 {
   color: black
 }
 
+.Aproyecto:hover{
+  text-decoration: none;
+  color:#272749;
+}
+
+
+
+
+
 .proyectos-recientes {
   padding: 40px;
 }
